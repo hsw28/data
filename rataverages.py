@@ -12,7 +12,7 @@ ax1.plot(data1['a'], data1['b'], color='r', label='rat 1')
 ax1.plot(data2['c'], data2['d'], color='b', label='rat 2')
 plt.axis([1,12,0,100])
 plt.legend()
-plt.xlabel('Trial')
+plt.xlabel('Session')
 plt.ylabel('Percent Correct')
 
 plt.title('Performance Averages')

@@ -1,0 +1,6 @@
+day, correct turns with previous turn, correct if turn was opposite last turned, wrong turns with previous turn, wrong turn if previous turn was opposite
+1, 8, 6, 9, 3
+2, 6, 4, 7, 0
+3, 6, 4, 4, 0
+4, 7, 7, 3, 0
+5, 4, 4, 7, 1
