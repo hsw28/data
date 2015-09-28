@@ -15,12 +15,11 @@ y1=data1['c']/data1['b']*100
 y2=data1['e']/data1['d']*100
 
 
-
-plt.bar(x1, y1, color='seagreen', width=0.34, label='% correct if previous turn was opposite direction of correct turn')
-plt.bar(x2, y2, color='orangered', width=0.34, label='% incorrect if previous turn was opposite direction of correct turn', align='center')
+plt.bar(x1, y1, color='darkslategray', width=0.34, label='% of correct turns that required alternating from last visited arm')
+plt.bar(x2, y2, color='mediumpurple', width=0.34, label='% of correct turns that required NOT alternating from last visited arm', align='center')
 
 plt.legend(loc=2)
-plt.axis([0,7,0,119.9])
+plt.axis([0,6.5,0,119.9])
 plt.xlabel('Day')
 
 

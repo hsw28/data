@@ -1,6 +1,7 @@
-day, correct turns with previous turn, correct if turn was opposite last turned, wrong turns with previous turn, wrong turn if previous turn was opposite
-1, 8, 6, 9, 3
-2, 6, 4, 7, 0
-3, 6, 4, 4, 0
-4, 7, 7, 3, 0
-5, 4, 4, 7, 1
+day, turns that would require alternating, correct turns of alternating turns, turns that don't require alternating, correct turns of non-alternating
+1, 9, 5, 7, 2
+2, 4, 4, 9, 1
+3, 4, 3, 6, 2 
+4, 8, 7, 3, 0
+5, 5, 2, 6, 0
+6, 9, 6, 4, 0

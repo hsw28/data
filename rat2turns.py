@@ -15,7 +15,7 @@ p3=plt.bar(data1['a'], data1['b'], color='lightseagreen', label='Right turns exp
 
 
 plt.legend()
-plt.axis([0,12,0,10])
+plt.axis([0,13,0,12])
 plt.xlabel('Session')
 
 plt.title('Right Turn Bias')
