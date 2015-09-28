@@ -24,7 +24,7 @@ plt.bar(x2, y2, color='mediumpurple', width=0.34, label='% of correct turns that
 
 
 plt.legend(loc=2)
-plt.axis([0,6.5,0,119.9])
+plt.axis([0,17.5,0,119.9])
 plt.xlabel('Day')
 
 
